@@ -8,9 +8,6 @@ GREEN_LED = 27
 YELLOW_LED = 17
 RED_LED = 22
 
-LED.setup(GREEN_LED, LED.OUT)
-LED.setup(YELLOW_LED, LED.OUT)
-LED.setup(RED_LED, LED.OUT)
 
 def log_cpu_usage():
     with open("cpu_usage_log.txt", "a") as log_file:
